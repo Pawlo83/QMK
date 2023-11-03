@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,     PL_Q,    PL_W,       PL_E,    PL_R,     PL_T,    PL_Y,    PL_U,          PL_I,          PL_O,    PL_P,    PL_QUOT,
         KC_CAPS,    PL_A,    PL_S,       PL_D,    PL_F,     PL_G,    PL_H,    PL_J,          PL_K,          PL_L,    PL_SCLN, KC_BSPC,
         KC_LSFT,    PL_Z,    PL_X,       PL_C,    PL_V,     PL_B,    PL_N,    PL_M,          PL_COMM,       PL_DOT,  PL_SLSH, KC_RSFT,
-        KC_LCTL,    KC_LGUI, KC_LALT,    MO(1),   MO(2),    KC_SPC,  KC_SPC,  LT(1, KC_ENT), LT(2, KC_TAB), KC_RALT, KC_RGUI, KC_RCTL
+        KC_LCTL,    KC_LGUI, KC_LALT,    MO(1),   MO(2),    KC_SPC,  KC_SPC,  LT(1, KC_ENT), KC_TAB,        KC_RALT, KC_RGUI, KC_RCTL
     ),
     [1] = LAYOUT_ortho_5x12(
         KC_ESC,     KC_F1,   KC_F2,      KC_F3,   KC_F4,    KC_F5,   KC_F6,   KC_F7,         KC_F8,         KC_F9,   KC_F10,  KC_F11,
@@ -67,7 +67,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_LGUI, KC_LALT,         KC_SPC,                    KC_TRNS, KC_TRNS, KC_ESC,          KC_CAPS
     ),*/
     [3] = LAYOUT_ortho_5x12(
-        KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,    KC_F5,   KC_F6,   KC_F7,         KC_F8,         KC_F9,   KC_F10,  TG(3),
+        KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,    KC_F5,   KC_F6,   KC_F7,         KC_F8,         KC_F9,   KC_PAUS, TG(3),
         KC_TAB,  PL_Q,    PL_W,    PL_E,    PL_R,     PL_T,    PL_Y,    PL_U,          PL_I,          PL_O,    PL_P,    PL_QUOT,
         KC_CAPS, PL_A,    PL_S,    PL_D,    PL_F,     PL_G,    PL_H,    PL_J,          PL_K,          PL_L,    PL_SCLN, KC_BSPC,
         KC_LSFT, PL_Z,    PL_X,    PL_C,    PL_V,     PL_B,    PL_N,    PL_M,          PL_COMM,       PL_DOT,  PL_SLSH, KC_RSFT,
