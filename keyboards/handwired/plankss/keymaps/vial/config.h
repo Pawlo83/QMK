@@ -1,5 +1,6 @@
 /*
 Copyright 2023 Joe Scotto
+Copyright 2026 Pawlo83
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -18,10 +19,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 // Define options
-#define TAPPING_TERM 135
-#define PERMISSIVE_HOLD
+#define TAPPING_TERM 150
+//#define PERMISSIVE_HOLD
 
 // Vial
-#define VIAL_KEYBOARD_UID {0x51, 0x03, 0xE8, 0x58, 0xDF, 0x99, 0xDE, 0x5B}
-#define VIAL_UNLOCK_COMBO_ROWS { 4, 4 }
-#define VIAL_UNLOCK_COMBO_COLS { 0, 10 }
+#define VIAL_KEYBOARD_UID {0x51, 0x02, 0xE8, 0x58, 0xDF, 0x11, 0xDA, 0x5B}
+#define VIAL_UNLOCK_COMBO_ROWS { 4, 0 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 11 }
